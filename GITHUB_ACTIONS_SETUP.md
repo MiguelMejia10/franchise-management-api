@@ -35,7 +35,10 @@ permissions:
 
 ### Job: security-scan
 ```yaml
-# Usa defaults, no requiere permisos adicionales para Trivy
+permissions:
+  contents: read
+  security-events: write    # Para upload-sarif a GitHub Security ✅
+  actions: read
 ```
 
 ## 🚀 Workflows Implementados
