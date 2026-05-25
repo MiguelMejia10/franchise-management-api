@@ -25,25 +25,30 @@ La aplicación iniciará en el puerto 8080.
 ### Swagger UI (Interfaz Interactiva)
 ```
 http://localhost:8080/swagger-ui.html
+https://franchise-management-api-x82s.onrender.com/swagger-ui.html
 ```
 O también:
 ```
 http://localhost:8080/swagger-ui/index.html
+https://franchise-management-api-x82s.onrender.com/swagger-ui/index.html
 ```
 
 ### API Docs (JSON)
 ```
 http://localhost:8080/v3/api-docs
+https://franchise-management-api-x82s.onrender.com/v3/api-docs
 ```
 
 ### Actuator Health Check
 ```
 http://localhost:8080/actuator/health
+https://franchise-management-api-x82s.onrender.com/actuator/health
 ```
 
 ### Actuator Endpoints
 ```
 http://localhost:8080/actuator
+https://franchise-management-api-x82s.onrender.com/actuator
 ```
 
 ## 🧪 Probar Endpoints desde Swagger UI

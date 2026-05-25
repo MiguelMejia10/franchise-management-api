@@ -41,3 +41,11 @@ out/
 
 ### PDF ###
 *.pdf
+
+### Environment Variables ###
+.env
+.env.local
+.env.production
+*.env
+!.env.example
+!.env.render
