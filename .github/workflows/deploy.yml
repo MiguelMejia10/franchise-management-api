@@ -11,11 +11,12 @@ on:
           - dev
           - staging
           - production
-  push:
-    branches:
-      - main
-    tags:
-      - 'v*'
+  # DESACTIVADO: Descomentar cuando tengas AWS configurado
+  # push:
+  #   branches:
+  #     - main
+  #   tags:
+  #     - 'v*'
 
 env:
   AWS_REGION: us-east-1
@@ -28,6 +29,7 @@ jobs:
   deploy-to-aws:
     name: Deploy to AWS ECS
     runs-on: ubuntu-latest
+    if: false  # DESACTIVADO - Cambiar a true cuando tengas AWS configurado
     environment: ${{ github.event.inputs.environment || 'production' }}
 
     steps:
