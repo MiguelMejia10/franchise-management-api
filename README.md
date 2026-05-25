@@ -5,7 +5,7 @@ API REST **Reactiva** para gestión de franquicias, sucursales y productos desar
 ## Tecnologías
 
 - Java 21
-- **Spring Boot 4.0.6**
+- **Spring Boot 3.3.5**
 - **Spring WebFlux** (Programación Reactiva)
 - **Spring Data R2DBC** (Reactive Relational Database Connectivity)
 - **R2DBC MySQL Driver** (Driver reactivo para MySQL)
